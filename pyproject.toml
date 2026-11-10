@@ -1,5 +1,5 @@
 [project]
-name = "autocopy-pendrive"
+name = "pendrive-autocopy"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,14 +7,11 @@ authors = [
     { name = "Outshader", email = "arturniklewicz012@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = [
-    "pywin32>=312",
-    "wmi>=1.5.1",
-]
+dependencies = []
 
 [project.scripts]
-autocopy-pendrive = "autocopy_pendrive:main"
+pendrive-autocopy = "pendrive_autocopy:main"
 
 [build-system]
-requires = ["uv_build>=0.12.16,<0.13.0"]
+requires = ["uv_build>=0.13.7,<0.14.0"]
 build-backend = "uv_build"
